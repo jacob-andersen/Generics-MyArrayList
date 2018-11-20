@@ -7,7 +7,7 @@ public class MyArrayListTest {
     {
         //Given
 
-        MyArrayList <String> newlist = new MyArrayList();
+        MyArrayList <String> newlist = new MyArrayList(2);
 
         //When
         newlist.add("eric");
